@@ -1,0 +1,14 @@
+body{
+    background-color: black; color: aliceblue;
+    td{
+        border: 2px solid white;
+    }
+}
+p{background-color: brown;}
+a{background-color: rgb(0, 255, 76);}
+.red{
+
+}
+#firstdiv{
+    background-color: red;
+}
