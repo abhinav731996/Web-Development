@@ -1,0 +1,44 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 50%;
+    width: 50%;
+    position: relative; left: 350px;
+}
+img{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 600px;
+    height: 700px;
+    padding: 20px;
+    margin: 20px;
+    /* position: relative; left: 55px; top: 20px; */
+}
+
+.nature{
+    display: inline-block;   
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative; left: 55px;top: 20px;
+}
+.lake{
+    display: inline-block;   
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative; left: 55px;top: 20px;
+}
+.card h1{
+    align-content: center
+}
+span{
+    background-color: aqua;
+    color: blue;
+    border: 1px solid rgb(7, 138, 138);
+    border-radius: 5px;
+    position: relative; left: 300px;
+    /* text-align: center; */
+}
