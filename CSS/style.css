@@ -81,7 +81,7 @@ nav ul li{
     border: 2px solid black;
     overflow: auto;
 }
-@media screen and (max-width : 500px) {
+@media screen and (min-width : 500px) {
     body{
         background-color: white;
     }
@@ -91,4 +91,18 @@ nav ul li{
         border: 2px solid blueviolet;
     }
     
+}
+.cards::before{
+    content: "Abhinav is good";
+    color: rgb(244, 195, 19);
+}
+.cards{
+    border: 2px solid black;
+    display: flow-root;
+} 
+img{
+    float: left;
+}
+.card{
+    border: 2px solid red;
 }
