@@ -126,17 +126,40 @@ img{
 .move{
     border: 2px solid black;
     height: 200px;
+    position: relative;
 }
 .box{
     height: 42px;
     width: 42px;
     background-color: rgb(43, 226, 98);
     border: 2px solid black;
-    transition-property: transform;
+    /* transition-property: transform;
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
-    transition-delay: 1s;
+    transition-delay: 1s; */
+    border-radius: 70px;
+        position: absolute;
+        bottom: 0;
+        left: 0;   
+    animation: anmiX infinite 3s  linear alternate, anmiY infinite 3s linear alternate;
 }
-.translate{
+/* .translate{
     transform: translateX(10vw) translateY(10vh);
+} */
+@keyframes anmiX {
+    from{
+        left: 0%;
+    }
+    to{
+        left: 100%;
+    }
+}
+@keyframes anmiY {
+    from{
+        bottom: 0%;
+    }
+    to{
+        bottom: 100%;
+    }
+    
 }
