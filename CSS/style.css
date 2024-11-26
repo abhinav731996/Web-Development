@@ -122,3 +122,21 @@ img{
     margin: 4px;
 
 }
+
+.move{
+    border: 2px solid black;
+    height: 200px;
+}
+.box{
+    height: 42px;
+    width: 42px;
+    background-color: rgb(43, 226, 98);
+    border: 2px solid black;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+.translate{
+    transform: translateX(10vw) translateY(10vh);
+}
