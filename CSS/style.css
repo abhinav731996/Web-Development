@@ -106,3 +106,19 @@ img{
 .card{
     border: 2px solid red;
 }
+.container{
+    border: 2px solid black;
+    display: flex;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    height: 42px;
+    width: 42px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin: 4px;
+
+}
