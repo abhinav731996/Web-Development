@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img {
+    width: 140px;
+    /* height: 123px; */
+    /* background-color: blue; */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.right ul{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
