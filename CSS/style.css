@@ -161,5 +161,19 @@ img{
     to{
         bottom: 100%;
     }
-    
+}
+.imgbox{
+    width: 445px;
+    height: 500px;
+    /* background-color: aquamarine; */
+    border: 2px solid black ;
+    background-image: url(https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg);
+    background-position: 60%;
+}
+img{
+    width: 233px;
+    height: 180px;
+    object-fit: cover;
+    object-fit: fill;
+    /* object-position: 33px 100px; */
 }
