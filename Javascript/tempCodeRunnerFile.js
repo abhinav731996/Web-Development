@@ -1,0 +1,1 @@
+${t} is a classmate of ${frind}

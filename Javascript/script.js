@@ -108,3 +108,22 @@ const funx = (x)=>{
 funx(34);
 funx(25);
 funx(43);
+
+//+++++++++++++++ string  +++++++++++++//
+
+console.log("this is a string sample");
+let t ="Abhinav";
+console.log(t[0]);
+console.log(t[1]);
+console.log(t[2]);
+console.log(t[3]);
+console.log(t[4]);
+console.log(t[5]);
+console.log(t[6]);
+console.log(t[7]);
+
+let ab ="Abhinav";
+let  frind = "Rohan";
+console.log(`${ab} is a classmate of ${frind}` );
+console.log(ab.toUpperCase());
+console.log(ab.toLowerCase());
