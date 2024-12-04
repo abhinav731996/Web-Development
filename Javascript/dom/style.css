@@ -1,0 +1,26 @@
+.box{
+    height: 24px;
+    width: 334px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.boxes{
+    height: 24px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.bjboxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
