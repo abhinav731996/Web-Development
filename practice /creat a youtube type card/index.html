@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a card</title>
+    <style>
+      .card {
+        display: flex;
+        border: 2px solid black;
+        width: 800px;
+        height: 138px;
+        /* justify-content: center;             */
+        /* align-items: center; */
+        text-align: center;
+      }
+      .image {
+        position: relative;
+      }
+      .image .capsule {
+        position: absolute;
+        z-index: 10;
+        bottom: 5px;
+        right: 4px;
+        background-color: black;
+        color: white;
+        opacity: 0.7;
+        margin: 2px;
+        padding: 2px;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="image">
+          <img
+            src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCLbeHLcVNUxbHKUuMxpLbTQSNcPQ"
+            alt=""
+          />
+          <div class="capsule">31:20</div>
+        </div>
+        <div class="text">
+          <h1>Introduction to web development #1</h1>
+          <p>code with harry . 727k views . 2 months ago</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
